@@ -77,23 +77,29 @@ namespace c__basics_2
             #endregion
             #region quesion 10
             //Q10
-            string title = "refactoring";
-            switch (title)
+            //string title = "refactoring";
+            //switch (title)
 
-            {
-                case "clean code":
-                    Console.WriteLine("Great choice!");
-                    break;
-                default:
-                    Console.WriteLine("never heard of it");
-                    break;
-            }
-                
-        
+            //{
+            //    case "clean code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("never heard of it");
+            //        break;
+            //}
 
 
 
 
+
+
+            #endregion
+            #region quesion11
+            //Q11
+            int pages = 250;
+            string sizelabel = pages > 300 ? "long Book" : pages > 250 ? "test" : "ENded";
+            Console.WriteLine(sizelabel);
             #endregion
         }
     }
