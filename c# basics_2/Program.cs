@@ -50,8 +50,13 @@ namespace c__basics_2
             //Console.WriteLine(sentence);
             #endregion
             #region quesion 6
-            string sentense = $"Book:{title},pages:{pages}";
-            Console.WriteLine(sentense);
+            //string sentense = $"Book:{title},pages:{pages}";
+            //Console.WriteLine(sentense);
+            #endregion
+            #region quesion 7
+            //Q7
+            string sentence = string.Format("Book:{1}, pages: {0}", titele, pages);
+            Console.WriteLine(sentence);
             #endregion
         }
     }
