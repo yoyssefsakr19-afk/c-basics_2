@@ -97,9 +97,16 @@ namespace c__basics_2
             #endregion
             #region quesion11
             //Q11
-            int pages = 250;
-            string sizelabel = pages > 300 ? "long Book" : pages > 250 ? "test" : "ENded";
-            Console.WriteLine(sizelabel);
+            //int pages = 250;
+            //string sizelabel = pages > 300 ? "long Book" : pages > 250 ? "test" : "ENded";
+            //Console.WriteLine(sizelabel);
+            #endregion
+            #region quesion 12 
+            //Q12
+            for (int i = 0; i < Book.length; i++)
+            {
+                Console.WriteLine($"{i}.{books[i]}");
+            }
             #endregion
         }
     }
