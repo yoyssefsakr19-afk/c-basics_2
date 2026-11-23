@@ -19,10 +19,20 @@ namespace c__basics_2
             #endregion
             #region quesion 2
             //Q2
-            string first = "clean code";
-            string second = "clean code";
+            //string first = "clean code";
+            //string second = "clean code";
 
-            Console.WriteLine(ReferenceEquals(first, second));
+            //Console.WriteLine(ReferenceEquals(first, second));
+            #endregion
+            #region quesion 3
+            //Q3
+            StringBuilder builder = new StringBuilder();
+            builder.Append("Book list");
+            builder.Append(" - Updated");
+            builder.Append(" - Updated");
+            builder.Append(" - Updated");
+            builder.Append(" - Updated");
+            Console.WriteLine(builder);
             #endregion
         }
     }
