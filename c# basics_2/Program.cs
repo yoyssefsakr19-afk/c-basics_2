@@ -133,13 +133,21 @@ namespace c__basics_2
             //    Console.WriteLine(book);
             #endregion
             #region quesion 16
+            //foreach (var book in books)
+            //{
+            //    if (book == "Refactoring")
+            //        break;
+            //    Console.WriteLine(book);
+            //}
+
+            #endregion
+            #region quesion 17
             foreach (var book in books)
             {
-                if (book == "Refactoring")
-                    break;
+                if (book == "the pragmatic programmer")
+                    continue;
                 Console.WriteLine(book);
             }
-                
             #endregion
         }
     }
