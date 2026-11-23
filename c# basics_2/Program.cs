@@ -36,10 +36,18 @@ namespace c__basics_2
             #endregion
             #region quesion 4
             //Q4
-            builder.Replace("Book list", "library");
+            //builder.Replace("Book list", "library");
 
-            int pages = 464;
+            //int pages = 464;
 
+            #endregion
+            #region quesion 5
+            //Q5
+            string title = "clean code";
+            int ages = 464;
+
+            string sentence = "Book: " + title + ", pages:" + pages;
+            Console.WriteLine(sentence);
             #endregion
         }
     }
