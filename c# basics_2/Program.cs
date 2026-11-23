@@ -27,12 +27,19 @@ namespace c__basics_2
             #region quesion 3
             //Q3
             StringBuilder builder = new StringBuilder();
-            builder.Append("Book list");
-            builder.Append(" - Updated");
-            builder.Append(" - Updated");
-            builder.Append(" - Updated");
-            builder.Append(" - Updated");
-            Console.WriteLine(builder);
+            //builder.Append("Book list");
+            //builder.Append(" - Updated");
+            //builder.Append(" - Updated");
+            //builder.Append(" - Updated");
+            //builder.Append(" - Updated");
+            //Console.WriteLine(builder);
+            #endregion
+            #region quesion 4
+            //Q4
+            builder.Replace("Book list", "library");
+
+            int pages = 464;
+
             #endregion
         }
     }
