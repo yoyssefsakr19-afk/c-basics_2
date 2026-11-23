@@ -103,9 +103,18 @@ namespace c__basics_2
             #endregion
             #region quesion 12 
             //Q12
-            for (int i = 0; i < Book.length; i++)
+            //for (int i = 0; i < Book.length; i++)
+            //{
+            //    Console.WriteLine($"{i}.{books[i]}");
+            //}
+            #endregion
+            #region quesion 13
+            //Q13
+            int i = 0;
+            while (i < books.Length)
             {
-                Console.WriteLine($"{i}.{books[i]}");
+                Console.WriteLine(books[i]);
+                i++;
             }
             #endregion
         }
