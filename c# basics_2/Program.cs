@@ -142,11 +142,22 @@ namespace c__basics_2
 
             #endregion
             #region quesion 17
-            foreach (var book in books)
+            //foreach (var book in books)
+            //{
+            //    if (book == "the pragmatic programmer")
+            //        continue;
+            //    Console.WriteLine(book);
+            //}
+            #endregion
+            #region quesion 18
+            //Q18
+            printFirstbook();
+            static void printFirstbook()
             {
-                if (book == "the pragmatic programmer")
-                    continue;
-                Console.WriteLine(book);
+                if (books.length == 0)
+                    return;
+                Console.WriteLine([0]);
+                
             }
             #endregion
         }
