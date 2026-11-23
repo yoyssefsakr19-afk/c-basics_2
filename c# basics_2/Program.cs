@@ -70,9 +70,29 @@ namespace c__basics_2
             #endregion
             #region quesion 9
             //Q
-            bool isAvailable = true;
-            if (pages > 300 && isAvailable) ;
-            Console.WriteLine("you can borrw this book");
+            //bool isAvailable = true;
+            //if (pages > 300 && isAvailable) ;
+            //Console.WriteLine("you can borrw this book");
+
+            #endregion
+            #region quesion 10
+            //Q10
+            string title = "refactoring";
+            switch (title)
+
+            {
+                case "clean code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                default:
+                    Console.WriteLine("never heard of it");
+                    break;
+            }
+                
+        
+
+
+
 
             #endregion
         }
