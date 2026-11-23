@@ -119,14 +119,18 @@ namespace c__basics_2
             #endregion
             #region quesion 14
             //Q14
-            int count = 0;
-            do
-            {
-                Console.WriteLine("Cheaking Books....");
-                count++;
-            } while (count > 3);
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine("Cheaking Books....");
+            //    count++;
+            //} while (count > 3);
 
 
+            #endregion
+            #region quesion 15
+            foreach (var book in books)
+                Console.WriteLine(book);
             #endregion
         }
     }
