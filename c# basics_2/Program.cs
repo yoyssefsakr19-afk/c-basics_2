@@ -60,12 +60,19 @@ namespace c__basics_2
             #endregion
             #region quesion 8
             //Q8
-            int pages = 464;
+            //int pages = 464;
 
-            if(pages> 300)
-                Console.WriteLine("long book");
-            else
-                Console.WriteLine("short Book")
+            //if(pages> 300)
+            //    Console.WriteLine("long book");
+            //else
+            //    Console.WriteLine("short Book")
+
+            #endregion
+            #region quesion 9
+            //Q
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable) ;
+            Console.WriteLine("you can borrw this book");
 
             #endregion
         }
