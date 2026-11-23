@@ -55,8 +55,18 @@ namespace c__basics_2
             #endregion
             #region quesion 7
             //Q7
-            string sentence = string.Format("Book:{1}, pages: {0}", titele, pages);
-            Console.WriteLine(sentence);
+            //string sentence = string.Format("Book:{1}, pages: {0}", titele, pages);
+            //Console.WriteLine(sentence);
+            #endregion
+            #region quesion 8
+            //Q8
+            int pages = 464;
+
+            if(pages> 300)
+                Console.WriteLine("long book");
+            else
+                Console.WriteLine("short Book")
+
             #endregion
         }
     }
