@@ -43,11 +43,15 @@ namespace c__basics_2
             #endregion
             #region quesion 5
             //Q5
-            string title = "clean code";
-            int ages = 464;
+            //string title = "clean code";
+            //int ages = 464;
 
-            string sentence = "Book: " + title + ", pages:" + pages;
-            Console.WriteLine(sentence);
+            //string sentence = "Book: " + title + ", pages:" + pages;
+            //Console.WriteLine(sentence);
+            #endregion
+            #region quesion 6
+            string sentense = $"Book:{title},pages:{pages}";
+            Console.WriteLine(sentense);
             #endregion
         }
     }
