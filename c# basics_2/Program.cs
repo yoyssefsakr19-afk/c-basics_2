@@ -129,8 +129,17 @@ namespace c__basics_2
 
             #endregion
             #region quesion 15
+            //foreach (var book in books)
+            //    Console.WriteLine(book);
+            #endregion
+            #region quesion 16
             foreach (var book in books)
+            {
+                if (book == "Refactoring")
+                    break;
                 Console.WriteLine(book);
+            }
+                
             #endregion
         }
     }
