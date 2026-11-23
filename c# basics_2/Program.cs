@@ -110,12 +110,23 @@ namespace c__basics_2
             #endregion
             #region quesion 13
             //Q13
-            int i = 0;
-            while (i < books.Length)
+            //int i = 0;
+            //while (i < books.Length)
+            //{
+            //    Console.WriteLine(books[i]);
+            //    i++;
+            //}
+            #endregion
+            #region quesion 14
+            //Q14
+            int count = 0;
+            do
             {
-                Console.WriteLine(books[i]);
-                i++;
-            }
+                Console.WriteLine("Cheaking Books....");
+                count++;
+            } while (count > 3);
+
+
             #endregion
         }
     }
